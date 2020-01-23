@@ -13,7 +13,9 @@
 ### Setup
 
 #### `.env` requirements (where applicable)
-- `PORT` - Port Number
+- `PORT` 
+- npm i - install dependencies
+
 
 
 #### How to initialize/run your application (where applicable)
@@ -22,8 +24,14 @@
 #### Tests
 
 - How do you run tests?
+npm test to run tests
+npm run watch
+
+
 - Any tests of note?
+no
 - Describe any tests that you did not complete, skipped, etc
+stretch goal
 
 #### UML
 

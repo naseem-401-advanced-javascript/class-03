@@ -1,0 +1,25 @@
+{
+  "name": "class-03",
+  "version": "1.0.0",
+  "description": "## Project  Async",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "lint": "eslint **/.js",
+    "test": "jest --coverage --verbose",
+    "test-watch": "jest --watchAll --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naseem-401-advanced-javascript/class-03.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naseem-401-advanced-javascript/class-03/issues"
+  },
+  "homepage": "https://github.com/naseem-401-advanced-javascript/class-03#readme"
+}
