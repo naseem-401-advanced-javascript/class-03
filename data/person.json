@@ -1,14 +1,13 @@
 {
-    "firstName": "Edward",
-    "lastName": "Scissorhands",
+    "firstName": "naseem",
+    "lastName": "izzat",
     "hair": {
         "type": "wavy",
         "color": "brown"
     },
     "favoriteFoods": [
         "pizza",
-        "cupcakes",
-        "children"
+        "cupcakes"
     ],
     "married": false,
     "kids": 0
