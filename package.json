@@ -9,7 +9,8 @@
   "scripts": {
     "lint": "eslint **/.js",
     "test": "jest --coverage --verbose",
-    "test-watch": "jest --watchAll --coverage --verbose"
+    "test-watch": "jest --watchAll --coverage --verbose",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/naseem-401-advanced-javascript/class-03/issues"
   },
-  "homepage": "https://github.com/naseem-401-advanced-javascript/class-03#readme"
+  "homepage": "https://github.com/naseem-401-advanced-javascript/class-03#readme",
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0",
+    "jsdoc": "^3.6.3"
+  }
 }
