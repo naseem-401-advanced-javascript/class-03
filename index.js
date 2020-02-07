@@ -1,14 +1,17 @@
+/* eslint-disable no-trailing-spaces */
+/* eslint-disable no-undef */
 'use strict';
 
-const fileReader = require('./lib/reader.js');
+const editor = require('./edit-file.js');
+const process = require('process');
+let path = process.argv[2]; 
 
-let files = process.argv.slice(2);
+const showFile = (err, data) => {
+  if (err) {
+    throw err;
+  } else {    
+    console.log(data);
+  }
+};
 
-if( ! (files instanceof Array && files.length) ) {
-  throw new Error('Invalid Args');
-}
-
-fileReader(files, (err,data) => {
-  if ( err ) { throw err; }
-  console.log('From Callback:', data);
-});
+editor(path, showFile);

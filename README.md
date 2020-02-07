@@ -6,11 +6,11 @@
 
 ### Links and Resources
 
-- [submission PR]()
-- [ci/cd]() (GitHub Actions)
+- [submission PR](https://github.com/naseem-401-advanced-javascript/class-03/pull/1)
 
 
 ### Setup
+install the needed Dependencies JEST ESLINT and use npm run test to run it
 
 #### `.env` requirements (where applicable)
 - `PORT` 
@@ -27,7 +27,6 @@
 npm test to run tests
 npm run watch
 
-
 - Any tests of note?
 no
 - Describe any tests that you did not complete, skipped, etc
@@ -35,4 +34,4 @@ stretch goal
 
 #### UML
 
-Link to an image of the UML for your application and response to events
+[](assest/lab3.jpeg)
